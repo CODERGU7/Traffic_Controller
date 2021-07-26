@@ -14,7 +14,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 `timescale 1ns/1ps
 
-module traffic_controller(hwy, cntry, X, clock, clear);
+module traffic_controller(hwy, cntry, x, clock, clear);
 
 output reg [1:0] hwy, cntry;
 input x,clr.clk;
